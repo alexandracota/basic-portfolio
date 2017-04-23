@@ -1,3 +1,18 @@
-h1 {
-	background: #0BADA7;
+body {
+	color: #777777;
+	background-image: url("../images/stardust.png")
+
+}
+
+header {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+#id {
+	background: #4aaaa5;
+	padding: 20px;
+	color: white;
+	float: left;
 }
