@@ -5,14 +5,39 @@ body {
 }
 
 header {
+	font-size: 40px;
 	padding: 20px;
 	margin-bottom: 20px;
 	background: white;
+	height: 75px;
 }
 
-#id {
+#name {
 	background: #4aaaa5;
 	padding: 20px;
 	color: white;
 	float: left;
+}
+
+#main-content {
+	width: 650px;
+	background: white;
+	padding: 20px;
+	border: 20px;
+	float: left;
+}
+
+#sidebar {
+	background: white;
+	width: 270px;
+	float: right;
+	border: 20px;
+}
+
+#footer {
+	color: white;
+	background: gray;
+	padding: 20px;
+	margin-top: 20px;
+	clear: both;
 }
