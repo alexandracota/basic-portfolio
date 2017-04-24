@@ -5,6 +5,7 @@ body {
 }
 
 header {
+	font-family: "Georgia", Times, Times New Roman, serif;
 	font-size: 40px;
 	padding: 20px;
 	margin-bottom: 20px;
@@ -17,6 +18,12 @@ header {
 	padding: 20px;
 	color: white;
 	float: left;
+}
+
+#main-content,
+#sidebar,
+#footer {
+	font-family: "Arial", "Helvetica New", Helvetica, sans-serif;
 }
 
 #main-content {
@@ -32,6 +39,7 @@ header {
 	width: 270px;
 	float: right;
 	border: 20px;
+	padding: 20px;
 }
 
 #footer {
