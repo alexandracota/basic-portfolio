@@ -1,3 +1,8 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
 body {
 	color: #777777;
 	background-image: url("../images/stardust.png");
@@ -49,13 +54,12 @@ a.nav:link {
 
 /* Nav Bar */
 li.nav {
-	position: absolute;
-	top: 0;
-	right: 10;
+	display: inline-block;
+	float: right;
 }
 
 ul.nav {
-	display: center;
+	text-align: center;
 	margin: 0 auto 0 auto;
 }
 
@@ -108,10 +112,17 @@ h3 {
 	padding: 20px;
 }
 
-#site-footer {
+.site-footer {
+	position: absolute;
+	bottom: 0;
 	color: white;
 	background: gray;
-	height: 50px;
+	font-size: 24px;
+	height: 20px;
+	width: 100%;
+	overflow: hidden;
+	margin: 20 auto;
+	text-align: center;
 	padding: 20px;
 	clear: both;
 }
