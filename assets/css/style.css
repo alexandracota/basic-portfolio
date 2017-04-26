@@ -1,51 +1,117 @@
 body {
 	color: #777777;
-	background-image: url("../images/stardust.png")
+	background-image: url("../images/stardust.png");
 
 }
 
 header {
 	font-family: "Georgia", Times, Times New Roman, serif;
 	font-size: 40px;
-	padding: 20px;
 	margin-bottom: 20px;
 	background: white;
-	height: 75px;
+	height: 100px;
 }
 
 #name {
+	position: relative;
+ 	top: 20px;
+ 	right: -60px;
 	background: #4aaaa5;
-	padding: 20px;
 	color: white;
-	float: left;
+	padding: 20px;
+	width: 175px;
+	margin-bottom: 0 auto;
+}
+
+div {
+	border: 2px;
+	margin: 0 auto 60 auto;
+	padding: 10px;
+	width: 900;
+}
+
+/* Links */
+a {
+	color: gray;
+	font-family: "Arial", "Helvetica New", Helvetica, sans-serif;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+a.nav:link {
+	background-color: white;
+	color: black;
+	display: inline-block;
+	padding: 15px;
+	text-align: center;
+	width: 90px;
+}
+
+/* Nav Bar */
+li.nav {
+	position: absolute;
+	top: 0;
+	right: 10;
+}
+
+ul.nav {
+	display: center;
+	margin: 0 auto 0 auto;
+}
+
+/* About Me */
+h2 {
+	font-family: "Georgia", Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 40px;
+}
+
+#image {
+	float:left;
+	margin-top: 15px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 0px;
 }
 
 #main-content,
 #sidebar,
 #footer {
 	font-family: "Arial", "Helvetica New", Helvetica, sans-serif;
+	line-height: 1.5;	
 }
 
 #main-content {
-	width: 650px;
+	position: relative;
+	width: /*650px,*/ 50%;
 	background: white;
-	padding: 20px;
+	padding: 40px;
 	border: 20px;
+	margin-left: 60px;
+	margin-bottom: 40px;
 	float: left;
 }
 
+h3 {
+	font-family: "Georgia", Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 30px;
+}
+
 #sidebar {
+	position: relative;
 	background: white;
-	width: 270px;
-	float: right;
+	width: /*270px,*/ 30%;
+	float: left;
+	margin-left: 20px;
 	border: 20px;
 	padding: 20px;
 }
 
-#footer {
+#site-footer {
 	color: white;
 	background: gray;
+	height: 50px;
 	padding: 20px;
-	margin-top: 20px;
 	clear: both;
 }
